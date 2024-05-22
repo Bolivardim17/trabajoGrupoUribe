@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #33AFFF;
+    border-radius: 5px;
+    margin-left: 350px;
+    border-color: #33AFFF;
+    background-color: #F5F5DC;
+    
+    
+    
+}
+
+fieldset{
+    border-color: #33AFFF;
+    margin-top: 5px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #33AFFF;
+    margin-top: 5px;
+    margin-left: 35px;
+    font-size: white;
+}
+
+input[type="number"] {
+    width: calc(50% - 5px);
+    
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #33AFFF;
+    color:black;
+    font-size: 16px;
+    border-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #33AFFF;
+}
+
+.primeraImg{
+    width: 6%;   
+    margin-bottom: -43px;
+    margin-left: -5px;
+
+}
+
+.selector{
+    width: 94%;
+    height: 40px;
+    margin-left: 35px;
+    border-radius: 5px;
+    border: 1px solid #33AFFF;
+    font-size: 16px;   
+    
+}
+
+.ubicacion{
+    width: 30%;
+    height: 40px;
+    margin-left: 35px;
+    border-radius: 5px;
+    border: 1px solid #33AFFF;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+
+   
+}
+
+.localizacion{
+    display: flex;
+    justify-content: space-around;
+}
+
+.segundaImg{
+    width: 6%;
+    margin-left: -5px;
+}
+
+.advertencia {
+    margin-top: 20px;
+    color: red;
+    font-size: 14px;
+}
